@@ -1,0 +1,10 @@
+#button-dialog { }
+#button-dialog div{ padding: 5px 0; height: 20px;  margin-bottom: 8px;}
+#button-dialog label { display: block; float: left; margin: 0 8px 0 0;}
+#button-dialog select, #button-dialog input { display: block; float: right; width: 320px;height: 16px; padding: 3px 5px;}
+#button-dialog select { width: 331px;height: 23px;}
+#button-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#mceu_66{
+    max-height:300px !important;
+}

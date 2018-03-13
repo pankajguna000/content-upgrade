@@ -1,0 +1,422 @@
+.dlv_container {
+    margin-left: 0;
+    text-align: center;
+}
+
+.dlv_container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 46px;
+    margin: 45px 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.dlv_container a .fa {
+    margin-left: 5px;
+}
+
+.dlv_container img {
+    -webkit-box-shadow: none !important;
+    border: 0;
+}
+
+.dlv_container a.dlv_download {
+    background: #2ba142;
+    padding: 0 22px 0 42px;
+    height: 42px;
+    margin-right: 15px;
+    -webkit-box-shadow: 0 3px 0 #106220;
+    -moz-box-shadow: 0 3px 0 #106220;
+    box-shadow: 0 3px 0 #106220;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.dlv_container a.dlv_download:after {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 21px;
+    top: 15px;
+    content: ' ';
+    background: url(../images/down_demo.png) right center;
+}
+
+.dlv_container a.dlv_download:hover {
+    background: #177b2a;
+}
+
+#content_wrapper.content .post .post-content .dlv_container a.dlv_download,
+#content_wrapper.content .post .post-content .dlv_container a.lv_demo{
+    text-decoration: none !important;
+    color: #fff;
+}
+.dlv_container a.lv_demo {
+    background: #0c7ac7;
+    padding: 0 25px 0 41px;
+    height: 42px;
+    -webkit-box-shadow: 0 3px 0 #083e64;
+    -moz-box-shadow: 0 3px 0 #083e64;
+    box-shadow: 0 3px 0 #083e64;
+}
+
+.dlv_container a.lv_demo:after {
+    width: 17px;
+    height: 10px;
+    position: absolute;
+    left: 19px;
+    top: 18px;
+    content: ' ';
+    background: url(../images/see_demo.png) right center;
+}
+
+.dlv_container a.lv_demo:hover {
+    background: #0a5589;
+}
+
+#loading_submit .prev-first {
+    font-weight: bold;
+    color: #066fb1 !important;
+    font-size: 20px !important;
+    margin-bottom: 20px;
+}
+
+#loading_submit .prev-second {
+    font-weight: bold;
+    color: #000000 !important;
+    margin-top: 18px;
+}
+
+#abc {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto;
+    z-index: 1;
+}
+
+img#close {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+div#popupContact {
+    position: fixed;
+    left: 50%;
+    top: 12%;
+    margin-left: -202px;
+    font-family: 'Lato', sans-serif;
+    width: 460px;
+    padding: 25px 30px 23px;
+    border: 2px solid rgb(170, 170, 170);
+    background-color: white;
+    display: none;
+    z-index: 1;
+    text-align: left;
+}
+
+#popupContact p {
+    color: #3A3A3A;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 0 9px;
+    line-height: 18px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 15px 0;
+}
+
+#popupContact span.input_wrapper {
+    display: block;
+}
+
+img#nameicon {
+    padding: 8px 10px 13px 10px;
+    vertical-align: middle;
+    margin-top: -4px;
+    border: 2px solid #DBDBDB;
+    -moz-box-shadow: inset 0 0 6px #dadada !important;
+    -webkit-box-shadow: inset 0 0 6px #dadada !important;
+    box-shadow: inset 0 0 6px #dadada !important;
+}
+
+img#emailicon {
+    padding: 16px 12px 14px 12px;
+    vertical-align: middle;
+    margin-top: -4px;
+    border: 2px solid #DBDBDB;
+    -moz-box-shadow: inset 0 0 6px #dadada !important;
+    -webkit-box-shadow: inset 0 0 6px #dadada !important;
+    box-shadow: inset 0 0 6px #dadada !important;
+}
+
+#popupContact input[type=text] {
+    padding: 6px 7px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #DBDBDB;
+}
+
+#popupContact input[type=text]:focus {
+    border: 1px solid #49AEE7;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(87, 183, 235, 1);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(87, 183, 235, 1);
+    box-shadow: 0px 0px 3px 1px rgba(87, 183, 235, 1);
+}
+
+input[type=text]:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px white inset !important; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+#popupContact input[type=button] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+    background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+    background-color: #007dc1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #124d77;
+    display: block;
+    color: #ffffff !important;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0px 1px 0px #3c7038;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#popupContact input[type=button]:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+    background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
+    background-color: #0061a7;
+}
+
+#popupContact #loading_submit p.note .link {
+    -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+    background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+    background-color: #007dc1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #124d77;
+    display: block;
+    cursor: pointer;
+    color: #ffffff !important;
+    font-size: 15px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    margin-left: auto;
+    margin-right: auto;
+    width: 261px;
+    text-decoration: none !important;
+}
+
+#popupContact #loading_submit p.note .link:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+    background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
+    background-color: #0061a7;
+}
+
+#popupContact .loader-small {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+#popupContact .note {
+    font-size: 15px !important;
+    margin-top: 22px;
+}
+
+/* for loading */
+#popupContact .pinfo {
+    background-color: #CEEAF1;
+    font-size: 13px !important;
+    padding: 2px 6px 2px 6px;
+    color: #62A9D1 !important;
+}
+
+#popupContact .meter {
+    width: 454px;
+    height: 20px; /* Can be anything */
+    position: relative;
+    display: none;
+    padding: 10px;
+    margin: -40px 0 -25px -38px;
+    padding: 23px 24px 23px 25px;
+}
+
+#popupContact .meter > span {
+    display: block;
+    height: 15px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(43, 194, 83);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(43, 194, 83)), color-stop(1, rgb(84, 240, 84)));
+    background-image: -moz-linear-gradient(center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+    -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+#popupContact .meter > span:after, .animate > span > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+#popupContact .animate > span:after {
+    display: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+
+
+/*#crestashareicon{
+    display: none;
+}*/
+
+/*-----------Setting page styling-------------*/
+.form_con {
+    margin: 30px 0;
+}
+.form_con table {
+    margin: 40px auto 0 auto;
+    text-align: left;
+    width: 100%;
+}
+.form_con table th {
+    display: block;
+}
+
+td.mail_sub_btn .mailkey_btn {
+    background: #0a8dc1;
+    border: 2px solid;
+    border-color: #0085ba;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+td.mail_sub_btn .mailkey_btn:hover {
+    cursor: pointer;
+    background-color: #1896c7;
+
+}
+.form_con table td.label {
+    width: 20%;
+    font-size: 15px;
+    vertical-align: initial;
+    font-weight: bold;
+}
+.form_con table td input[type=text] {
+    width: 40%;
+}
+.form_con table td select {
+    min-width: 15%;
+}
+.form_con table td input[type=text].email_head {
+    width: 48.5%;
+    margin-bottom: 3px;
+}
