@@ -1,4 +1,4 @@
-# Content Upgrade
+# Content Upgrade WordPress Plugin
 
 Note: Please refer the screenshot images to understand the complete working of the content upgrade plugin.
 
